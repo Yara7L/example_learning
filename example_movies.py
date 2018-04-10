@@ -484,7 +484,7 @@ _=plt.ylim()
 
 def get_tensors(loaded_graph):
     user_id=loaded_graph.get_tensors_by_name("user_id:0")
-    user_gender=loaded_graph.get_tensors_by_name("user_gender:0")
+    user_gender=loaded_graplearnh.get_tensors_by_name("user_gender:0")
     user_age=loaded_graph.get_tensors_by_name("user_age:0")
     user_job=loaded_graph.get_tensors_by_name("user_job:0")
     movie_id=loaded_graph.get_tensors_by_name("movie_id:0")

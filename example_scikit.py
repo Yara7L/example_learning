@@ -1,7 +1,6 @@
 #数据加载
 import numpy as numpy
 import urllib.request
-url = "http://archive.ics.uci.edu/ml/machine-learning-databases/pima-indians-diabetes/pima-indians-diabetes.data"
 raw_data = urllib.request.urlopen(url)
 dataset = numpy.loadtxt(raw_data, delimiter=",")
 print(dataset)
